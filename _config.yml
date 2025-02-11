@@ -1,24 +1,24 @@
 # Your name and what you do
-name: Eve Adam
+name: Tom Finkelson
 bio: Software Developer
 
-description: Eve Adam's Personal Website
+description: Tom Finkelson's Personal Website
 
 # Profile picture
-picture: assets/images/profile.jpg
+#picture:
 
 # your url: http://USERNAME.github.io
-url: https://jibolash.github.io/Eve/
+url: https://TFink7.github.io
 
 # do you want to display social media links? true or false
 social-media: true
 # Add your username for the social media websites listed below
 # If you don't have an account on any of them, comment out the line
 # facebook: myfacebook
-twitter: mytwitter
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#twitter: mytwitter
+linkedin: https://www.linkedin.com/in/tomfinkelson/
+github: https://github.com/TFink7
+email: tom.finkelson@gmail.com
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -59,21 +59,18 @@ projects: true
 
 # add your projects here
 project-list:
-    QuizKnit:
-        name: QuizKnit
-        description: AI powered web application that generates a quiz based on user provided text. Users can share the quiz using a custom url and also test their knowledge by exploring quizzes created by other people.
-        url: https://quizknit.com
-    Eve:
-        name: Eve
-        description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites. Currently has 50+ Github stars. This website is built with it!
-        url: https://github.com/jibolash/Eve
-    World-Cup-History:
-        name: World Cup  History
-        description: npm package for FIFA World cup historical data.
-        url: https://github.com/jibolash/world-cup-history
+    WallpaperGenerator:
+        name: Wallpaper Generator
+        description: AI powered windows application that generates daily wallpapers based on a users location and current weather conditions.
+        url: https://github.com/TFink7/WallPaperGenerator
+    RobotShooter:
+        name: Robot Shooter 
+        description: OpenGL based turret defense game with custom shaders. 
+        url: https://github.com/TFink7/RobotShooter
+
 
 # do you want to display the theme attribution? true or false
-footer: true
+footer: false
 
 # Enable animations? true or false
 animation: true
