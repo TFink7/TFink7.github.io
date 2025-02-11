@@ -64,7 +64,7 @@ project-list:
         url: https://github.com/TFink7/WallPaperGenerator
     RobotShooter:
         name: Robot Shooter 
-        description: OpenGL based turret defense game with custom shaders. 
+        description: Fully textured OpenGL based turret defense game with custom shaders. 
         url: https://github.com/TFink7/RobotShooter
 
 
