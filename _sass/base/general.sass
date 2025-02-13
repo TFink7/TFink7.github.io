@@ -1,10 +1,16 @@
 body, html
 	font-size: 62.5%
 
-body
+//body
 	line-height: 1
 	font: 16px $fontSans
 	color: $alpha
+
+body
+	line-height: 1
+	font: 16px $fontSans
+	color: #fff
+	background-color: #000
 
 h1, h2, h3, h4
 	font-family: $fontSans
@@ -114,8 +120,8 @@ pre
 	border: 1px solid $epsilon
 	border-radius: 2px
 
-.wrapper-normal,
-.wrapper-large
+//.wrapper-normal,
+//.wrapper-large
 	height: 100%
 	width: 96%
 	margin: 0 auto
@@ -125,6 +131,18 @@ pre
 
 	@media #{$tablet}
 		width: 88%
+
+.wrapper-normal,
+.wrapper-large
+  height: 100%
+  width: 96%
+  margin: 0 auto
+
+  @media #{$mobile}
+    width: 88%
+
+  @media #{$tablet}
+    width: 88%
 
 .wrapper-normal
 	max-width: 560px
