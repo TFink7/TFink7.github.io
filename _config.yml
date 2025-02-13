@@ -60,15 +60,15 @@ projects: true
 project-list:
     WallpaperGenerator:
         name: Wallpaper Generator
-        description: AI powered Windows application that generates daily wallpapers based on a users location and current weather conditions.
+        description: AI powered Windows application that generates daily wallpapers based on a users location and current weather conditions
         url: https://github.com/TFink7/WallPaperGenerator
     RobotShooter:
         name: Robot Shooter 
-        description: Fully textured OpenGL based turret defense game with custom shaders and full game state management. 
+        description: Fully textured OpenGL based turret defense game with custom shaders and full game state management
         url: https://github.com/TFink7/RobotShooter
     KitchenTimer:
         name: Kitchen Timer
-        description: Intuitive kitchen timer interface with audio and visual feedback that ensures clear and distinct user interaction signals.
+        description: Intuitive kitchen timer interface with audio and visual feedback that ensures clear and distinct user interaction signals
         url: https://github.com/TFink7/KitchenTimer
 
 
