@@ -66,10 +66,10 @@ project-list:
         name: Robot Shooter 
         description: Fully textured OpenGL based turret defense game with custom shaders and full game state management
         url: https://github.com/TFink7/RobotShooter
-    KitchenTimer:
-        name: Kitchen Timer
-        description: Intuitive kitchen timer interface with audio and visual feedback that ensures clear and distinct user interaction signals
-        url: https://github.com/TFink7/KitchenTimer
+    BudgetWise:
+        name: BudgetWise CLI
+        description: Cross-platform envelope-based budgeting application
+        url: https://github.com/TFink7/budgetwise_cli
 
 
 # do you want to display the theme attribution? true or false
