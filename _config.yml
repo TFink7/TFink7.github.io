@@ -8,7 +8,7 @@ description: Tom Finkelson's Personal Website
 #picture:
 
 # your url: http://USERNAME.github.io
-url: https://TFink7.github.io
+url: https://tfink7.dev
 
 # do you want to display social media links? true or false
 social-media: true
@@ -45,13 +45,10 @@ skills: true
 
 # add your skills here
 skills-list:
-    - C#, Python
-    - SQL
-    - Linux
-    - Git
-    - Docker
-    - MySQL/SQLite/EF Core/SQLAlchemy
-    - Agile
+    Languages: C#, Python, SQL, JavaScript, HTML, CSS
+    Tools: Docker, Git, GitHub Actions, Linux, Visual Studio
+    Data: PostgreSQL, SQLite, EF Core, SQLAlchemy
+    Methodologies: OOP, Agile, CI/CD, Test-Driven Development
 
 # do you want to display a projects section? true or false
 projects: true
@@ -60,16 +57,19 @@ projects: true
 project-list:
     WallpaperGenerator:
         name: Wallpaper Generator
-        description: AI powered Windows application that generates daily wallpapers based on a users location and current weather conditions
+        tech: C#, .NET 7, WPF, SQLite, EF Core
+        description: MVVM desktop app that generates and applies wallpapers based on your location and local weather, with async API calls, scheduled and on-demand generation, a browsable history, and CI via GitHub Actions
         url: https://github.com/TFink7/WallPaperGenerator
-    RobotShooter:
-        name: Robot Shooter 
-        description: Fully textured OpenGL based turret defense game with custom shaders and full game state management
-        url: https://github.com/TFink7/RobotShooter
     BudgetWise:
         name: BudgetWise CLI
-        description: Cross-platform envelope-based budgeting application
+        tech: Python, PostgreSQL, Docker, SQLAlchemy
+        description: Cross-platform CLI for envelope-based budgeting with real-time reports, containerized with Docker and checked by pre-commit hooks and GitHub Actions
         url: https://github.com/TFink7/budgetwise_cli
+    ErrorReporter:
+        name: Error Reporting API
+        tech: ASP.NET Core, PostgreSQL, EF Core
+        description: REST API for centralized error tracking with filtering, pagination, and summaries, plus hashed API-key auth, client management, and per-client rate limiting
+        url: https://github.com/TFink7/ErrorReporter
 
 
 # do you want to display the theme attribution? true or false

@@ -1,6 +1,14 @@
 body, html
 	font-size: 62.5%
 
+// Paint the root black too, so Edge doesn't show grey when it
+// overscrolls ("bounces") past the bottom or the page is shorter than the window
+html
+	background-color: #000
+	color-scheme: dark
+	min-height: 100%
+	overscroll-behavior-y: none
+
 //body
 	line-height: 1
 	font: 16px $fontSans
@@ -142,7 +150,7 @@ pre
 	
 	@media #{$mobile}
 		width: 88%
-		padding: 0
+		padding: 1.6rem
 
 	@media #{$tablet}
 		width: 88%
